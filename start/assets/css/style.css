@@ -46,14 +46,15 @@ nav li {
 /* MAIN */
 main {
     background-color: white;
+    margin: 10px auto;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
     
     margin: 10px auto;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 30px;
+    box-sizing: content-box;
 
 }
 article h1 {
@@ -98,7 +99,8 @@ table tr:nth-child(2n+2){
 }
 iframe {
     border-radius: 15%;
-    box-sizing: border-box;
+    
+    width:400px;
 }
 /* FORM */
 section h2 {
