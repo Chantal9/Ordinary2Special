@@ -148,11 +148,8 @@ aside div{
     background-color: lightblue;
     padding: 15px;
     width: 450px;
-    margin: 10px auto; /* allinea il div interno con in div esterno */
-    border: 2px ;/* dimensione stile e colore del bordo */
-    
-   /*  outline: 3px solid blue;  bordo all'esterno del bordo 
-    outline-offset: 10px;  distanza tra i bordi */ 
+    margin: 10px auto; 
+    border: 2px ;
     box-sizing: border-box;
 
 }
