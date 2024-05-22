@@ -1,6 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 body {
     background-image: url(../img/sfondo.png);
+    background-attachment: fixed;
     font-family: 'Poppins';
 }
 /* HEADER */
@@ -14,8 +15,10 @@ header {
     padding: 10px;
     text-align: center;
     color: white;
-    
+    text-transform: uppercase;
 }
+    
+
  .blocco1 {
     background: rgb(83,152,67);
     background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
@@ -28,18 +31,20 @@ header {
     
     box-shadow: 4px 4px 10px 2px gray ; 
 }
-a {
+nav a {
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 /* MAIN */
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
     background-color: white;
     margin: 10px auto;
     padding: 10px;
-    
+    box-sizing: border-box;
 
 }
 article h1 {
@@ -47,17 +52,85 @@ article h1 {
     font-size: 30px;
 }
 
-article p:first-child {
+h1+p {
     color:lightgray;
+}
+.colore {
+    color:darkmagenta;
+    font-weight: bold;
+}
+#link{
+    color:blue;
+    text-decoration: underline;
+    text-transform: lowercase;
 }
 
 /* TABELLE */
-
+table {
+    border-bottom: 2px solid blue;
+    text-align: center;
+}
+table thead {
+    background-color: blue;
+    color:white;
+    padding:3px;
+   
+}
+table td {
+ padding: 2px;
+}
+table caption {
+    font-weight: bold;    
+    font-style: italic;
+}
+table tr:nth-child(2n+2){
+   
+    background-color: lightgrey;
+}
 /* FORM */
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section{
+    background-color: lightblue;
+}
+input[type="email"] {
+    border:none;
+    border-bottom: 2px dotted lightgrey;
+    width: 180px;
+}
+button[type="submit"] {
+    border: none;
+    color:white;
+    font-weight: bold;
+    background-color: blue;  
+
+    
+}
 
 /* ELEMENTI NELL' ASIDE */
+aside h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+aside a {
+    color:blue;
+    text-decoration: underline;
+    
+
+}
+/* mette a destra solo i paragrafi dispari contenuti nei div di aside */
+aside div p:nth-child(2n+1){
+    text-align: right;
+    
+}
+
 
 /* FOOTER */
 footer p{
     text-align: center;
+    
 }
