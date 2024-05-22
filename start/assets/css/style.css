@@ -17,7 +17,9 @@ header {
     color: white;
     text-transform: uppercase;
 }
-    
+  header p {
+    padding: 15px;
+  }  
 
  .blocco1 {
     background: rgb(83,152,67);
@@ -31,11 +33,16 @@ header {
     
     box-shadow: 4px 4px 10px 2px gray ; 
 }
-nav a {
+nav li a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
+nav li {
+    padding-block: 2px;
+}
+
 /* MAIN */
 
 
@@ -86,6 +93,10 @@ table caption {
 table tr:nth-child(2n+2){
    
     background-color: lightgrey;
+}
+iframe {
+    border-radius: 15%;
+    box-sizing: border-box;
 }
 /* FORM */
 section h2 {
