@@ -44,11 +44,13 @@ nav li {
 }
 
 /* MAIN */
-
+main {
+    background-color: white;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
-    background-color: white;
+    
     margin: 10px auto;
     padding: 10px;
     box-sizing: border-box;
@@ -106,6 +108,7 @@ section h2 {
 }
 section{
     background-color: lightblue;
+    padding: 15px;
 }
 input[type="email"] {
     border:none;
@@ -139,7 +142,12 @@ aside div p:nth-child(2n+1){
     
 }
 
+aside div{
+    background-color: lightblue;
+    padding: 15px;
+    
 
+}
 /* FOOTER */
 footer {
     text-align: center;    
