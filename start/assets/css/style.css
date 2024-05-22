@@ -141,7 +141,11 @@ aside div p:nth-child(2n+1){
 
 
 /* FOOTER */
-footer p{
-    text-align: center;
-    
+footer {
+    text-align: center;    
+    background-color: darkcyan;
+    color:white;
+}
+address a {
+    color:fuchsia;
 }
