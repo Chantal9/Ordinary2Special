@@ -1,11 +1,12 @@
 /* IMPOSTAZIONI GENERALI */
 body {
     background-image: url(../img/sfondo.png);
+    font-family: 'Poppins';
 }
 /* HEADER */
 nav li {
     display: block;
-    padding: 15px 10px;
+    padding: 10px 10px;
     color:white;
 }
 
@@ -13,7 +14,7 @@ header {
     padding: 10px;
     text-align: center;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
  .blocco1 {
     background: rgb(83,152,67);
@@ -24,8 +25,8 @@ header {
     
 }
 .blocco1::shadow {
-    width: 510px;
-    box-shadow: 4px 4px 8px 2px lightgray ; 
+    
+    box-shadow: 4px 4px 10px 2px gray ; 
 }
 a {
     color: white;
@@ -36,10 +37,18 @@ a {
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
     background-color: white;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 10px;
-    min-width: 100px;
+    
 
+}
+article h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+article p:first-child {
+    color:lightgray;
 }
 
 /* TABELLE */
@@ -49,3 +58,6 @@ article {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer p{
+    text-align: center;
+}
