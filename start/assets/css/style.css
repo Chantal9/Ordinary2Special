@@ -1,7 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 body {
     background-image: url(../img/sfondo.png);
-    background-attachment: fixed;
+    background-attachment: scroll;
     font-family: 'Poppins';
 }
 /* HEADER */
@@ -26,7 +26,7 @@ header {
     background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
     margin: 0 auto;
     padding: 10px;
-    min-width: 100px;
+    width: 900px;
     
 }
 .blocco1::shadow {
@@ -45,11 +45,26 @@ nav li {
 
 /* MAIN */
 main {
-    background-color: white;
-    margin: 10px auto;
-    padding-bottom: 50px;
+    
 }
 
+.contenitore {
+    width: 900px;
+    padding-bottom: 50px;
+    background-color: white;
+    margin: 0 auto; /* centrato */
+    box-shadow: 2px 5px 2px gray;
+    
+}
+.contenitore div{
+    width: 840px;
+    margin: 10px auto; 
+    background-color: lightgray;
+    padding: 15px; /* distanza contenuto dal bordo */
+    border: 2px solid lightgrey;
+    box-sizing: border-box;
+   
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
     
@@ -61,13 +76,27 @@ article {
 article h1 {
     font-weight: bold;
     font-size: 30px;
+    padding-bottom: 10px;
 }
 
 h1+p {
     color:lightgray;
 }
+.lista{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.lista li {
+    padding-bottom: 3px;
+}
+code {
+    
+    background-color: gainsboro;
+    border-radius: 20%;
+    border-style: 2px solid grey;
+}
 .colore {
-    color:darkmagenta;
+    color: mediumvioletred;
     font-weight: bold;
 }
 #link{
@@ -80,6 +109,10 @@ h1+p {
 table {
     border-bottom: 2px solid blue;
     text-align: center;
+    
+}
+table caption {
+    padding-top: 15px;
 }
 table thead {
     background-color: blue;
@@ -88,20 +121,27 @@ table thead {
    
 }
 table td {
- padding: 2px;
+ padding: 10px;
+}
+table th {
+    padding: 10px;
 }
 table caption {
     font-weight: bold;    
     font-style: italic;
 }
+/* le righe pari le mette grigine */
 table tr:nth-child(2n+2){
    
     background-color: lightgrey;
 }
 iframe {
     border-radius: 15%;
-    
     width:400px;
+    padding-bottom: 20px;
+}
+table + p {
+    padding: 20px ;
 }
 /* FORM */
 section h2 {
@@ -110,21 +150,23 @@ section h2 {
     font-weight: bold;
 }
 section{
-    background-color: lightblue;
-    padding: 15px;
+    background-color: lightgray;
+    padding: 20px;
+}
+section p{
+    padding-bottom: 10px;
 }
 input[type="email"] {
     border:none;
-    border-bottom: 2px dotted lightgrey;
+    border-bottom: 2px dotted black;
     width: 180px;
+    
 }
 button[type="submit"] {
     border: none;
     color:white;
     font-weight: bold;
     background-color: blue;  
-
-    
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -136,13 +178,12 @@ aside h2 {
 aside a {
     color:blue;
     text-decoration: underline;
-    
-
+    font-weight: bold;
 }
-/* mette a destra solo i paragrafi dispari contenuti nei div di aside */
+/* mette a destra solo i paragrafi dispari contenuti nei div di aside (il contatore parte da zero) */
 aside div p:nth-child(2n+1){
     text-align: right;
-    
+
 }
 
 aside div{
@@ -159,6 +200,9 @@ footer {
     text-align: center;    
     background-color: darkcyan;
     color:white;
+    width: 900px;
+    margin: 0 auto; /* centrato */
+    padding: 15px;
 }
 address a {
     color:fuchsia;
