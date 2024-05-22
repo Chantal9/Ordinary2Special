@@ -6,14 +6,41 @@ body {
 nav li {
     display: block;
     padding: 15px 10px;
+    color:white;
 }
+
 header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .blocco1 {
     background: rgb(83,152,67);
     background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
+    margin: 0 auto;
+    padding: 10px;
+    min-width: 100px;
+    
+}
+.blocco1::shadow {
+    width: 510px;
+    box-shadow: 4px 4px 8px 2px lightgray ; 
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 /* MAIN */
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+article {
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    min-width: 100px;
+
+}
 
 /* TABELLE */
 
