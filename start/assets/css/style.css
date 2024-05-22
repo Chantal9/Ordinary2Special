@@ -1,7 +1,16 @@
 /* IMPOSTAZIONI GENERALI */
-
+body {
+    background-image: url(../img/sfondo.png);
+}
 /* HEADER */
-
+nav li {
+    display: block;
+    padding: 15px 10px;
+}
+header {
+    background: rgb(83,152,67);
+    background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
+}
 /* MAIN */
 
 /* ELEMENTI NEL MAIN - ARTICLE */
