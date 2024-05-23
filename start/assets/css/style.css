@@ -33,12 +33,9 @@ header {
     background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
     margin: 0 auto;
     padding: 10px;
-    
-    
-}
-.blocco1 {
     box-shadow: 2px 5px 2px gray;
 }
+    
 
 nav li a {
     color: white;
