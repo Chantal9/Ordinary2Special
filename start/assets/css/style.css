@@ -26,7 +26,7 @@ header {
 
  .blocco1 {
     background: rgb(83,152,67);
-    background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
+    background: linear-gradient(90deg, rgba(1,156,193,1) 0%, rgba(3,109,134,1) 0%);
     margin: 10px auto; /* centrato */
     padding: 15px;
     box-shadow: 2px 5px 2px gray;
@@ -57,7 +57,7 @@ hr {
 }
 .contenitore div{
     margin: 10px auto; 
-    background-color: lightgray;
+    background-color: rgb(227, 227, 227);
     padding: 15px; /* distanza contenuto dal bordo */
     border: 2px solid lightgrey;
     box-sizing: border-box;
@@ -141,7 +141,7 @@ section h2 {
     padding:10px
 }
 section{
-    background-color: lightgray;
+    background-color: rgb(227, 227, 227);
     padding: 15px;
 }
 section p{
@@ -192,7 +192,8 @@ aside div{
 /* FOOTER */
 footer {
     text-align: center;    
-    background-color: darkcyan;
+    background: rgba(5,85,103,1);
+    background-color: linear-gradient(90deg, rgba(5,85,103,1) 0%, rgba(50,56,57,1) 0%);
     color:white;
     margin: 10px auto; /* centrato */
     padding: 15px;
