@@ -3,7 +3,7 @@ body {
     background-image: url(../img/sfondo.png);
     background-attachment: scroll;
     font-family: 'Poppins';
-    padding: 15px;
+    padding: 10px;
 }
 /* HEADER */
 nav li {
@@ -16,7 +16,6 @@ a i {
     font-size: 15%;
     
 }
-
 
 header {
     
