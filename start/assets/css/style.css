@@ -123,7 +123,7 @@ table caption {
 }
 /* le righe pari le mette grigine */
 table tr:nth-child(2n+2){
-    background-color: lightgrey;
+    background-color: rgb(227, 227, 227);
 }
 iframe {
     border-radius: 15%;
