@@ -3,6 +3,7 @@ body {
     background-image: url(../img/sfondo.png);
     background-attachment: scroll;
     font-family: 'Poppins';
+    padding: 15px;
 }
 /* HEADER */
 nav li {
@@ -10,6 +11,11 @@ nav li {
     padding: 10px 10px;
     color:white;
 }
+a i {
+    
+    font-size: 5%;
+}
+
 
 header {
     padding: 10px;
@@ -26,13 +32,13 @@ header {
     background: linear-gradient(90deg, rgba(83,152,67,1) 0%, rgba(50,110,149,0.9831582291119573) 0%);
     margin: 0 auto;
     padding: 10px;
-    width: 900px;
+    
     
 }
-.blocco1::shadow {
-    
-    box-shadow: 4px 4px 10px 2px gray ; 
+.blocco1 {
+    box-shadow: 2px 5px 2px gray;
 }
+
 nav li a {
     color: white;
     text-decoration: none;
@@ -49,15 +55,15 @@ main {
 }
 
 .contenitore {
-    width: 900px;
+    box-sizing: border-box;
     padding-bottom: 50px;
     background-color: white;
-    margin: 0 auto; /* centrato */
+    margin: 10px auto; /* centrato */
     box-shadow: 2px 5px 2px gray;
     
 }
 .contenitore div{
-    width: 840px;
+    
     margin: 10px auto; 
     background-color: lightgray;
     padding: 15px; /* distanza contenuto dal bordo */
@@ -137,7 +143,7 @@ table tr:nth-child(2n+2){
 }
 iframe {
     border-radius: 15%;
-    width:400px;
+    width: 100%;
     padding-bottom: 20px;
 }
 table + p {
@@ -148,6 +154,7 @@ section h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    padding:10px
 }
 section{
     background-color: lightgray;
@@ -188,11 +195,11 @@ aside div p:nth-child(2n+1){
 
 aside div{
     background-color: lightblue;
-    padding: 15px;
-    width: 450px;
+    width: 90%;
+    padding: 20px;
     margin: 10px auto; 
-    border: 2px ;
     box-sizing: border-box;
+    border: 2px ;
 
 }
 /* FOOTER */
@@ -200,9 +207,9 @@ footer {
     text-align: center;    
     background-color: darkcyan;
     color:white;
-    width: 900px;
-    margin: 0 auto; /* centrato */
+    margin: 10px auto; /* centrato */
     padding: 15px;
+    box-shadow: 2px 5px 2px gray;
 }
 address a {
     color:fuchsia;
