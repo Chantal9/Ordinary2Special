@@ -182,7 +182,6 @@ aside a {
     text-decoration: underline;
     font-weight: bold;
     
-    
 }
 /* mette a destra solo i paragrafi dispari contenuti nei div di aside (il contatore parte da zero) */
 aside div p:nth-child(2n+1){
@@ -198,7 +197,7 @@ aside div p:nth-child(2n+2){
 
 aside div{
     background-color: lightblue;
-    width: 90%;
+    width: 95.5%;
     padding: 20px;
     margin: 10px auto; 
     box-sizing: border-box;
