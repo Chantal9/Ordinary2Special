@@ -13,7 +13,8 @@ nav li {
 }
 a i {
     
-    font-size: 5%;
+    font-size: 15%;
+    
 }
 
 
@@ -190,6 +191,8 @@ aside a {
 /* mette a destra solo i paragrafi dispari contenuti nei div di aside (il contatore parte da zero) */
 aside div p:nth-child(2n+1){
     text-align: right;
+    font-size: small;
+    padding-top: 10px;
 
 }
 
